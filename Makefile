@@ -1,8 +1,8 @@
 build:
-	cd auditable; cargo build
+	cargo build
 
 run:
-	cd auditable; cargo run
+	cargo run
 
 test:
-	cd auditable; cargo test
+	cargo test
