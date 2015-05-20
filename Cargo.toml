@@ -1,0 +1,11 @@
+[package]
+name = "auditable"
+version = "0.1.0"
+
+[dependencies]
+iron = "*"
+router = "*"
+bodyparser = "*"
+persistent = "*"
+rustc-serialize = "*"
+hyper = "*"
