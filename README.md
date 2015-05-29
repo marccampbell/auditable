@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/auditable/auditable.svg?branch=master)](https://travis-ci.org/auditable/auditable)
 
 ## Contributing
 You can use our development Dockerfile to quickly get a full dev environment up and running:  
