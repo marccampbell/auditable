@@ -1,0 +1,6 @@
+{
+  "action": "test.action",
+  "actor": "test.actor",
+  "created_at": "2015-0727T01:23:45.6789Z",
+  "description": "this is a test message"
+}

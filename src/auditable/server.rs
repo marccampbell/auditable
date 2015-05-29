@@ -3,13 +3,14 @@ extern crate router;
 extern crate bodyparser;
 extern crate rustc_serialize;
 extern crate persistent;
+extern crate redis;
+extern crate uuid;
+extern crate time;
 
 use iron::prelude::*;
 use iron::status;
 use router::Router;
-use bodyparser::*;
 use auditable::auditevent;
-use auditable::auditevent::AuditEvent;
 
 pub struct Server;
 

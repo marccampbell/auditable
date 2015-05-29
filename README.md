@@ -4,7 +4,7 @@ You can use our development Dockerfile to quickly get a full dev environment up 
 
 ```shell
 sudo docker build -t auditable-dev -f scripts/Dockerfile.dev .
-sudo docker run -p 3000:3000 -v `pwd`:/code -it auditable-dev /bin/bash
+sudo docker run -p 3000:3000 -v `pwd`:/code -it -e REDIS_URI=redis://<redis-ip>/ auditable-dev /bin/bash
 ```
 
 These commands will leave you in a dev containers with all dependencies already installed, and at a prompt in `/code`.
